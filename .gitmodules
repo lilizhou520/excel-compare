@@ -1,0 +1,3 @@
+[submodule "vendor/doctrine/instantiator"]
+	path = vendor/doctrine/instantiator
+	url = git://github.com/doctrine/instantiator.git

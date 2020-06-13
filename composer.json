@@ -1,0 +1,11 @@
+{
+	"name" : "lilizhou/excel-compare",
+	"require" : {
+		"phpoffice/phpspreadsheet": "1.13.0"
+    },
+    "minimum-stability": "dev",
+	"require-dev": {
+		"phpunit/phpunit": "8.5",
+		"phalcon/ide-stubs": "3.4"
+	}
+}
