@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/instantiator.git",
-            "reference": "a390fde13fc9bc2ffb73340bb8f07201a8e85af8"
+            "reference": "3e7a22aed197e9333cc929e7f6b4300bdae91fcc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a390fde13fc9bc2ffb73340bb8f07201a8e85af8",
-            "reference": "a390fde13fc9bc2ffb73340bb8f07201a8e85af8",
+            "url": "https://api.github.com/repos/doctrine/instantiator/zipball/3e7a22aed197e9333cc929e7f6b4300bdae91fcc",
+            "reference": "3e7a22aed197e9333cc929e7f6b4300bdae91fcc",
             "shasum": ""
         },
         "require": {
@@ -26,7 +26,7 @@
             "phpstan/phpstan-shim": "^0.11",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-05-30T16:47:47+00:00",
+        "time": "2020-06-15T18:51:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -100,7 +100,7 @@
         },
         "time": "2020-05-30T13:11:16+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "ZipStream\\": "src/"
@@ -170,7 +170,7 @@
         },
         "time": "2020-03-11T20:15:49+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Complex\\": "classes/src/"
@@ -266,7 +266,7 @@
         },
         "time": "2019-10-06T11:29:25+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Matrix\\": "classes/src/"
@@ -390,7 +390,7 @@
         },
         "time": "2020-02-14T08:15:52+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "MyCLabs\\Enum\\": "src/"
@@ -432,7 +432,7 @@
         },
         "time": "2018-05-28T06:20:06+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "BSD-3-Clause"
@@ -626,12 +626,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-            "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e"
+            "reference": "5892a510fe31de9c4200e6f9ae30e91dc5cd5a41"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
-            "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/5892a510fe31de9c4200e6f9ae30e91dc5cd5a41",
+            "reference": "5892a510fe31de9c4200e6f9ae30e91dc5cd5a41",
             "shasum": ""
         },
         "require": {
@@ -645,7 +645,7 @@
             "doctrine/instantiator": "^1",
             "mockery/mockery": "^1"
         },
-        "time": "2020-02-22T12:28:44+00:00",
+        "time": "2020-06-18T20:57:11+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1474,7 +1474,7 @@
                 "dev-master": "3.0-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "classmap": [
                 "src/"
@@ -1978,12 +1978,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
-            "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
+            "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
-            "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+            "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
             "shasum": ""
         },
         "require": {
@@ -1992,11 +1992,15 @@
         "suggest": {
             "ext-ctype": "For best performance"
         },
-        "time": "2020-05-12T16:14:59+00:00",
+        "time": "2020-06-06T08:46:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "1.17-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
             }
         },
         "installation-source": "source",
@@ -2052,12 +2056,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-mbstring.git",
-            "reference": "3ed80deaf77c304010e3f637bc1842c85fd6c485"
+            "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3ed80deaf77c304010e3f637bc1842c85fd6c485",
-            "reference": "3ed80deaf77c304010e3f637bc1842c85fd6c485",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
+            "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
             "shasum": ""
         },
         "require": {
@@ -2066,11 +2070,15 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2020-06-04T17:06:46+00:00",
+        "time": "2020-06-06T08:46:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "1.17-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
             }
         },
         "installation-source": "source",
@@ -2164,17 +2172,17 @@
     },
     {
         "name": "webmozart/assert",
-        "version": "1.8.0",
-        "version_normalized": "1.8.0.0",
+        "version": "1.9.0",
+        "version_normalized": "1.9.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/webmozart/assert.git",
-            "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6"
+            "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/webmozart/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
-            "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
+            "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
+            "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
             "shasum": ""
         },
         "require": {
@@ -2182,12 +2190,13 @@
             "symfony/polyfill-ctype": "^1.8"
         },
         "conflict": {
+            "phpstan/phpstan": "<0.12.20",
             "vimeo/psalm": "<3.9.1"
         },
         "require-dev": {
             "phpunit/phpunit": "^4.8.36 || ^7.5.13"
         },
-        "time": "2020-04-18T12:12:48+00:00",
+        "time": "2020-06-16T10:16:42+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
